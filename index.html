@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title>Password Strength Checker</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2> Password Strength 🔐</h2>
+
+  <div class="top-actions">
+    <button id="themeToggle">🌙</button>
+  </div>
+  
+  <div class="input-group">
+    <input type="password" id="password" placeholder="Enter your password">
+  
+    <div class="icons">
+      <span id="toggle">👁</span>
+    </div>
+  </div>
+
+  <!-- Generate button -->
+ 
+  <button id="generate" class="generate">
+    Generate Strong Password
+  </button>
+
+
+  <div class="strength-container">
+    <div class="strength-bar">
+      <div id="strengthFill" class="strength-fill"></div>
+    </div>
+
+    <div class="strength-text">
+      <span id="strengthLabel">Enter password</span>
+      <span id="score">0/5</span>
+    </div>
+  </div>
+
+  <div class="feedback" id="feedback"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
