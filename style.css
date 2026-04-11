@@ -85,7 +85,7 @@
   .weak { background: #ef4444; }
   .medium { background: #f59e0b; }
   .strong { background: #22c55e; }
-  /* layout fix for icons */
+  /* layout for icons */
 .input-group {
     position: relative;
     margin-bottom: 15px;
@@ -140,7 +140,7 @@
     color: white;
   }
   
-  /* 🌙 DARK MODE default */
+  /* DARK MODE default */
   body {
     background: linear-gradient(135deg, #0f172a, #1e293b);
     color: white;
@@ -152,7 +152,7 @@
     transition: all 0.3s ease;
   }
   
-  /* ☀️ LIGHT MODE (FIXED PROPERLY) */
+  /*  LIGHT MODE */
   body.light {
     background: #f1f5f9;
     color: #0f172a;
